@@ -1,0 +1,105 @@
+﻿html,
+
+body {
+	height:100%;
+}
+
+
+row {
+	background-position:center
+}
+
+#subarticle {
+	background-position:center;
+	display: block;
+    color: white ; 
+    margin-top: 0.5cm;
+    margin-bottom:0.5cm;
+    background-color:blue;
+    text-align: center;
+    padding: 5px 10px;
+    clear:both;
+}
+
+body {
+	padding-top:50px; /*for using .navbar-fixed-top . remove if using .navbar-static-top*/
+}
+
+.img-portfolio {
+	margin-bottom:30px
+}
+
+.img-hover:hover {
+	opacity: 0.8;
+}
+
+/*homepage carousel*/
+
+#myCarousel{
+		background-color:transparent;
+		bottom:10px;
+		background-image :none;
+		border:medium;
+		float:none;
+		margin-top:1cm;
+		margin-bottom:1cm;
+		margin-left:1cm;
+		margin-right:1cm;		
+		padding:15px 30px;
+		position:relative;
+		display:block;
+		play-during:auto;
+		
+}
+
+
+header.carousel {
+	height:50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+	height:100%
+}
+
+header.carousel .fill {
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-size: cover;
+}
+
+/*Footer*/
+
+footer {
+	margin:50px 0;
+	display: block;
+    color: white ; 
+    margin-top: 2cm;
+    background-color:black;
+    text-align: center;
+    padding: 20px 25px;
+    clear:both;
+}
+
+/*responsive styles*/
+
+@media (max-width:991px) {
+	.customer-img,
+	.img-related {
+	margin-bottom: 30px;
+	}
+}
+
+@media (max-width:767px) {
+	.img-portfolio {
+	margin-bottom: 15px
+	}
+
+
+header.carousel .carousel {
+	height:70%
+	}
+}
+
